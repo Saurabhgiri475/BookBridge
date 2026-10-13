@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+/media/
+/private_media/
+/staticfiles/
+
+# Trained ML model (books/ml_recommendations.py) - regenerate with
+# `python manage.py train_recommendations`, don't commit the binary.
+/ml_models/
+
+# Secrets - never commit these
+.env
+*.pem
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
